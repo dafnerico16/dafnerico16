@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color:rgb(192, 128, 245) ;
+}
+
+header{
+    background-color:#f99de1  ;
+    height: 100px;
+}
+
+header div{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+font-size: 20px;
+text-decoration: none;
+color: black;
+}
+
+footer{
+    background-color:#2874a6  ;
+    color: black;
+    justify-content: space-around;
+}
+
+.contenedor{
+    width: 90px;
+
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.columnas{
+    text-align: center;
+}
+
+aside{
+width: 20px;
+background-color: orange;
+min-height: auto;
+}
+
+
+.pie{
+    grid-area: pie;
+    background-color: rgb(160, 197, 245);
+    color: azure;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9cm;
+    border-radius: 5px;
+}
+
+.pie a{
+    color: #6a72df;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: #6a72df;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.sidebar h2{
+    color: black;
+}
+
+.sidebar p{
+    margin: 10px 0;
+    color: black;
+}
